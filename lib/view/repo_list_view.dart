@@ -70,25 +70,4 @@ class RepoListView extends StatelessWidget {
       isDismissible: true,
     );
   }
-// void _showConfirmationDialog(RepoModel repo) {
-//   Get.bottomSheet(
-//     Row(
-//       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-//       children: [
-//         ElevatedButton(
-//           child: const Text('Confirm'),
-//           onPressed: () {
-//             Get.back();
-//             Get.toNamed(RouteNames.repoCommitDetails,
-//                 arguments: [repo.owner.login, repo.name]);
-//           },
-//         ),
-//         ElevatedButton(
-//           child: const Text('Cancel'),
-//           onPressed: () => Get.back(),
-//         ),
-//       ],
-//     ),
-//   );
-// }
 }
